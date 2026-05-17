@@ -1,0 +1,47 @@
+Help4Code
+1) Which type of application you made using python/JAVA/C
+2)Features in 
+3)Why python is called dynamically typed language?
+Python virtual machine-pvm(python interpreter)
+4)Is python object oriented
+5)Python memory manager - manages the range of data types
+6)Why all fundamental datatypes are immutable?
+7)#All adresses are same because all the values are same and immutable datatypes are stored in the same memory location if they have the same value.
+8)ctrl+/ to comment all
+9)Concatenation - print("2"+"2")
+                    output:-22
+10)typecasting:
+Note: Google at life
+11)If else decide the flow of code 
+12)Loop decide no. of itteration
+13)c/c++= uses ASCII code
+14)python uses uni code
+15)ord function is used to type cast the value into ascii code
+
+==================================================================================================
+                                COLLECTION DATA TYPE
+1)Array - We cnnot store multiple value in a single variable . To store the multiple value we use array 
+          . Its finite order of homogeneous data type
+          . One dimensional / Two dimensional
+
+2)List- . Order wise data
+        . Heterogeneous datat are possible in List
+        . List represented by [] bracket
+        . Duplicate values are allowed
+        . by nature it is growable
+        . Mutable(Can change value in future)
+        . Every row and column has their index
+        . Ex:- mylist = [['Suhani', 'saxena'] , ['85.56'] , [440022,"yyy"]]
+                       0          1
+                0=  ['Suhani', 'saxena'] , 
+                1=  ['85.56'] , 
+                2=  [440022,"yyy"]
+
+3)Sorting- . Default sorting order for number is ascending order
+           . Default sorting order for string is alphabetical order
+           . We should know that list should contain homogenious data on python2 first short number then string dollow
+
+4)Alias- Alising means assigning one variable reference to another
+
+tarpits bansal package
+super intelligence meta
