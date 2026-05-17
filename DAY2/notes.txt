@@ -1,1 +1,5 @@
-
+Interview question
+1) state the difference between list and tuples
+   .If the client requirement is fix and wont be changed in the future at that time we use 
+    tupple and if the requirement is not fixes then we will use list
+   . Tupple is immutable / List is Mutable 
