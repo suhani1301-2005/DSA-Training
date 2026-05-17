@@ -1,0 +1,24 @@
+1)Binary search - It is faster than linear search
+                  . Half of the remaining elements can be eliminated at a time instead   of eliminiting them one by one
+                  . only works for sorted arrays
+
+2)Pseudocode :- . O(Log(N))
+                 Binary Search Pseudocode
+
+Create function with two parameters which are a sorted array and a value
+
+Create two pointers:
+- a left pointer at the start of the array
+- a right pointer at the end of the array
+
+Based on left and right pointers calculate middle pointer
+
+While middle is not equal to the value and start <= end loop:
+- if the middle is greater than the value move the right pointer down
+- if the middle is less than the value move the left pointer up
+
+If the value is never found return -1
+
+3) Stack - There are two ways of stack representation 
+           i) List/Array - group data 
+           ii) LinkedList - used to access directly for large data and if the daata will increase in future 
