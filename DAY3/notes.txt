@@ -1,0 +1,61 @@
+1) How many types of arguments we pass in funtion?
+   . Positional arguments
+   . keyword arguments
+   . default arguments
+   . variable length argument / variable number of arguments
+
+2)DSA - Data structure are different ways of organizing data on your computer , 
+        that can be used effectively
+        . ALgotithm - Set of steps accomplish a task
+        . Steps to check
+          * Correctness
+          * Efficiency
+        . Where to apply data structure
+          -> Data Preprocessing
+        . Can we use binary search for large data or should we use linear
+
+3) Big O - It is a complexity that is going to be less or eqaula to the worst case
+           . O(N)
+           . Types - Constant , Linear(O(N)) , Logarithmic(O(LogN)) , Quadratic(O(N^2)) ,  Exponential(O(2^N))
+
+4)Big O(omega) -  It is a complexity that is going to be leasat or more that n the best case
+                  . O(1)
+5)Big Theta - It is a complexity that is withing the bound of the worst and best case.
+
+6) Constant time - Accessing a specific elemnet in array
+                   . Example:-  array = [1 , 2 , 3 , 4 , 5]
+                                array[0] # It takes consatnt time to access an element
+                    . O(1)
+
+7) Linear time (O(N)) - Loop through array element
+                        . Example:- array = [1 , 2 , 3 , 4 , 5]
+                                    for element in array:
+                                       print(element) 
+                        . Linear time allow it is visiting every elemnte in the array
+
+8) Logarithmic time (O(LogN)) - Find an element in sorted array.
+                        . Example:- array = [1 , 2 , 3 , 4 , 5]
+                                    for index in range(0, len(array) ,3):
+                                        print(array[index])
+                        .Logarithmic time since it is visiting only some elements
+                        . Binary search is a best Example
+                        . Worst case
+
+9) Quadratic time (O(N^2)) - Looking in every node in a araaay twice
+                             . Nested loop is avoided as its complextity is Quadratic(O(N^2))
+                             . Example:- array = [1 , 2 , 3 , 4 , 5]
+                                         for x in array:
+                                            for y in array:
+                                                print(x,y)
+
+10) Exponential(O(2^N)) - Double recursion is function 
+                          . For time and space complexity which is best recurssion or loop -> Loop
+                          . When you want to go back tou your problem at that time recursion is best. recursion uses stack memory
+                          . Ex:- def fibonacci(n)
+                                    if n<= 1:
+                                        return n # return fibonacci (n-1) + fibonacci(n-2)
+
+11) Linear search - . Time complexity : O(N)
+                    . Space complexity : O(1)
+                    . Create function with two parameters which are an array and a value
+                    . Loop through the 
